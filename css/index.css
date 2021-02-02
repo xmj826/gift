@@ -1,0 +1,188 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+html{
+    font-size: 26.67vw;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 0.46rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fefefe;
+    border-top: 0.08rem solid #fefefe;
+}
+header span{
+    font-size: 0.17rem;
+    color: #fe233f;
+    font-weight: bold;
+}
+header input{
+    height: 0.31rem;
+    width: 2.35rem;
+    outline: none;
+    border: none;
+    border-radius: 0.13rem;
+    background: url(../images/index2_08.png) no-repeat #f9f5f4;
+    background-size: 0.13rem 0.13rem;
+    background-position:0.43rem 0.08rem;
+    text-align: center
+}
+header img{
+    width: 0.17rem;
+    height: 0.17rem;
+}
+/* 导航 */
+nav{
+    width: 100%;
+    height: 0.39rem;
+    background: #fefefe;
+    display: flex;
+    border-top: 0.05rem solid #fefefe;
+}
+nav a{
+    font-size: 0.13rem;
+    color: #776061;
+    margin: 0.03rem 0.1rem;
+    display: inline-block;
+    width: 0.45rem;
+    height: 0.25rem;
+    text-align: center;
+}
+nav a:hover{
+    color: #ff2a43;
+    border-bottom: 2px solid #ff2a43
+}
+main{
+    overflow: auto;
+}
+/* 轮播图 */
+article{
+    width: 100%;
+    height: 1.98rem;
+}
+article img{
+    width: 100%;
+    height: 100%
+}
+/* 推荐 */
+aside{
+    width: 100%;
+    flex: 1;
+    font-size: 0.17rem;
+    background: #f9f5f4;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+aside .first{
+    width: 100%;
+    background: #fefefe;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.1rem;
+    display: flex;
+    align-items: center;
+}
+aside .top{
+    width: 3.45rem;
+    margin-top: 0.16rem;
+}
+aside .img1{
+    width: 0.38rem;
+    height: 0.38rem;
+    float: left;
+    margin-right: 0.1rem;
+}
+aside h2{
+    display: inline-block;
+   font-size: 0.12rem;
+    color: #2e1d1c; 
+    line-height: 0.2rem; 
+    float: left;
+}
+aside span{
+    display: inline-block;
+   font-size: 0.1rem;
+    color: #b0a8a7; 
+    line-height: 0.2rem; 
+    float: left;
+    margin-left: -0.36rem
+}
+aside .reduce{
+    width: 3.45rem;
+    height: 1.99rem;
+    margin-top: 0.15rem;
+}
+aside .title{
+    width: 3.4rem;
+    height: 0.81rem;
+    margin-top: 0.16rem;
+}
+aside .title h3{
+    font-size: 0.16rem;
+    color: #745f5f;
+    line-height: 0.29rem;
+    font-weight: normal;
+}
+aside .title p{
+    font-size: 0.11rem;
+    color: #9d9896;
+    line-height: 0.225rem;
+}
+aside .bottom{
+    width: 3.4rem;
+    height: 0.49rem;
+    margin-top: 0.14rem;
+    border-top: 2px solid #f3f0ef;
+    font-size: 0.09rem;
+    color: #8e7b7b;
+}
+.bottom p{
+    float: right;
+    margin-top: 0.2rem;
+    margin-right: 0.14rem;
+}
+.bottom img{
+    width: 0.12rem;
+    height: 0.1rem;
+    margin-right: 0.05rem;
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-around;
+    background: #fefefe;
+    border-top:2px solid #eee9e8;
+}
+footer li{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li i{
+    font-size: 0.19rem !important;
+    color: #b8aaa9
+}
+footer li span{
+    font-size: 0.09rem !important;
+    color: #301f1f;
+}
+footer li:hover i,span,footer li:focus i,span{
+    color: #ff4258
+}
