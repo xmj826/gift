@@ -84,6 +84,7 @@ aside{
     display: flex;
     box-sizing: border-box;
     justify-content: center;
+    flex-direction: column;
 }
 aside .first{
     width: 100%;
