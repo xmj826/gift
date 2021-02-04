@@ -1,0 +1,137 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+html{
+    font-size: 26.67vw;
+}
+/* 登陆界面 */
+main{
+    flex: 1;
+    width: 2.93rem;
+    margin-left: 0.41rem;
+    position: relative;
+}
+main .head{
+    height: 0.5rem;
+    width: 0.5rem;
+    position: absolute;
+    top: 0.52rem;
+    left: 1.2rem;
+}
+main .login{
+    font-size: 0.13rem;
+    color: #302222;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 0.27rem;
+}
+.tel,.psw{
+    width: 100%;
+    height: 0.48rem;
+    position: relative;
+}
+.tel img,.psw img{
+    width:0.14rem ;
+    height: 0.18rem;
+    position: absolute;
+    left: 0.07rem;
+    top: 0.14rem;
+}
+.tel input,.psw input{
+    width:2.55rem ;
+    height: 0.42rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #eee3e2
+}
+.middle button{
+    width: 100%;
+    height: 0.42rem;
+    background: #dcd2d1;
+    color: #fefefe;
+    font-size: 0.14rem;
+    border: none;
+    position: absolute;
+    top: 2.9rem;
+    left: 0;
+}
+.middle span{
+    float: right;
+    font-size: 0.11rem;
+    color: #f51531;
+    margin-top: 0.9rem;
+}
+.foot .account{
+    font-size: 0.12rem;
+    color: #867474;
+    position: absolute;
+    bottom: 0.97rem;
+    left: 0.96rem;
+}
+.foot .left,.right{
+    display: inline-block;
+    width: 0.85rem;
+    height: 0.01rem;
+    border-top: 2px solid #f0eaea;
+    position: absolute;
+    bottom: 1.02rem;
+}
+.foot .right{
+    right: 0;
+}
+.foot img{
+    width: 0.38rem;
+    height: 0.38rem;
+    position: absolute;
+    bottom: 0.37rem;
+}
+.foot .one{
+    left: 0.38rem;
+}
+.foot .two{
+    left: 1.28rem;
+}
+.foot .three{
+    right: 0.38rem;
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-around;
+    background: #fefefe;
+    border-top:2px solid #eee9e8;
+}
+footer li{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li i{
+    font-size: 0.19rem !important;
+    color: #b8aaa9
+}
+footer li span{
+    font-size: 0.09rem !important;
+    color: #301f1f;
+}
+footer li:hover i,span,footer li:focus i,span{
+    color: #ff4258
+}
