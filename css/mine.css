@@ -1,0 +1,210 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+html{
+    font-size: 26.67vw;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 0.46rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fefefe;
+    border-top: 0.08rem solid #fefefe;
+    position: relative;
+}
+header i{
+    font-size: 0.17rem !important;
+    color: #4d4040;
+    position: absolute;
+    left: 0.18rem;
+    font-size: 0.19rem;
+}
+header b{
+    font-size: 0.16rem;
+    color: #140000;
+    font-weight: normal;
+}
+main{
+    flex: 1;
+}
+/* 个人信息 */
+aside{
+    width: 100%;
+    height: 1.91rem;
+    border-bottom: 0.1rem solid #f9f5f4;
+    background: #fefefe;
+    overflow: hidden;
+}
+aside .top{
+    height:0.64rem;
+    width: 100%;
+    margin-top: 0.3rem;
+    position: relative;
+}
+aside .top img{
+    height:0.64rem;
+    width: 0.64rem;
+    position: absolute;
+    top: 0;
+    left: 0.33rem;
+}
+aside .top ul{
+    width: 2.31rem;
+    float: right;
+    height: 100%;
+    list-style: none;
+}
+aside .top ul li{
+    width: 32%;
+    float: left;
+    height:0.16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.24rem;
+    border-left: 3px solid #ece0df
+}
+aside li span{
+    color: #170203;
+    font-size: 0.11rem;
+    font-weight: bold;
+}
+aside .top li i{
+    color: #1a0908;
+    font-size: 0.1rem;
+    margin-top: 0.1rem
+}
+aside .bottom{
+    height: 0.91rem;
+    width: 100%;
+    margin-top: 0.08rem
+}
+aside .bottom li{
+    width: 25%;
+    height: 0.91rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+aside .bottom li span{
+    font-size: 0.2rem;
+    color: #4c4242;
+    margin-bottom: 0.1rem;
+}
+aside .bottom li i{
+    color: #170203;
+    font-size: 0.11rem;
+}
+main .like{
+    width: 100%;
+}
+.like .top{
+    height: 0.38rem;
+    width: 100%;
+    border-bottom: 2px solid #f1edec;
+    display: flex;
+    justify-content: center;
+}
+.like .top a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.12rem;
+    width: 0.36rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #2b1c1b;
+}
+.like .top a:hover{
+    color: #ff2845;
+    border-bottom: 0.02rem solid #ff2845
+}
+.like .middle{
+    height: 2.75rem;
+    width: 100%;
+    overflow: hidden;
+}
+.like .middle p{
+    font-size: 0.15rem;
+    display: block;
+    float: left;
+    line-height: 0.78rem;
+    margin-left: 0.16rem;
+    color: #4a3839;
+    width: 100%
+}
+.like .middle img{
+    width: 0.83rem;
+    height: 0.83rem;
+    float: left;
+    margin-right: 0.04rem;
+    margin-bottom: 0.04rem;
+}
+.like .middle p img{
+    height: 0.13rem;
+    width: 0.07rem;
+     float: right;
+    margin-right: 0.4rem;
+    margin-top: 0.29rem;
+}
+.like .bottom{
+    height: 0.51rem;
+    width: 100%;
+    position: relative;
+}
+.like .bottom img{
+    height: 0.38rem;
+    width: 0.38rem;
+    position: absolute;
+    top: 0.07rem;
+    left: 0.15rem;
+}
+.like .bottom span{
+    font-size: 0.15rem;
+    color: #170202;
+    position: absolute;
+    left: 0.66rem;
+    top: 0.19rem
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-around;
+    background: #fefefe;
+    border-top:2px solid #eee9e8;
+}
+footer li{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li i{
+    font-size: 0.19rem !important;
+    color: #b8aaa9
+}
+footer li span{
+    font-size: 0.09rem !important;
+    color: #301f1f;
+}
+footer li:hover i,span,footer li:focus i,span{
+    color: #ff4258
+}
