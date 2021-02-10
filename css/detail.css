@@ -1,0 +1,136 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+html{
+    font-size: 26.67vw;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 0.45rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fefefe;
+    border-top: 0.08rem solid #fefefe;
+    position: relative;
+}
+header span{
+    font-size: 0.16rem;
+    color: #240d0f;
+    font-weight: bold;
+}
+header img{
+    width: 0.1rem;
+    height: 0.18rem;
+    position: absolute;
+    left: 0.18rem;
+}
+/* 内容 */
+main{
+    overflow: auto;
+    flex: 1;
+    position: relative;
+}
+main .bigImg{
+    width: 100%;
+    height: 2.15rem;
+}
+main aside{
+    width: 3.2rem;
+    margin-left: 0.25rem;
+    height: 5rem;
+    position: absolute;
+}
+aside h2{
+    font-size: 0.2rem;
+    color: #503c3d;
+    line-height: 0.34rem;
+}
+aside .line{
+    width: 0.42rem;
+    border-top: 2px solid #847575;
+    margin-top: 0.34rem;
+}
+aside p{
+    font-size: 0.14rem;
+    color: #372525;
+    line-height: 0.3rem;
+    margin-top: 0.22rem;    
+}
+aside h3{
+    font-size: 0.23rem;
+    color: #503c3d;
+    margin-top: 0.6rem;
+}
+aside h3 span{ 
+    font-size: 0.18rem;
+    line-height: 0.23rem;
+    color: #503c3d;
+}
+aside img{
+    width: 100%;
+    height: 3.23rem;
+    margin-top: 0.44rem;
+}
+aside .price{
+    font-size: 0.14rem;
+    color: #ff1c3a;
+    float: left;
+}
+aside .price span{
+    font-size: 0.12rem;
+    color: #311f22;
+}
+aside .buy{
+    width: 0.93rem;
+    height: 0.35rem;
+    float: right;
+    border: 2px solid #ecced1;
+    border-radius: 0.03rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #e90621;
+    font-size: 0.15rem;
+    background: #fefefe;
+}
+
+
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-around;
+    background: #fefefe;
+    border-top:2px solid #eee9e8;
+}
+footer li{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center; 
+    align-items: center;
+}
+footer li i{
+    font-size: 0.19rem !important;
+    color: #b8aaa9;
+    margin-left: 0.2rem;
+}
+footer li span{
+    font-size: 0.09rem !important;
+    color: #301f1f;
+    margin-left: 0.05rem !important
+}
+footer li:hover i,span,footer li:focus i,span{
+    color: #ff4258
+}
